@@ -12,11 +12,13 @@ brew tap elixirevo/tap
 
 ```bash
 brew install --cask elixirevo/tap/wewi
+brew install --cask elixirevo/tap/pinshot
 ```
 
 ## Available casks
 
 - `wewi`
+- `pinshot`
 
 ## Maintainer workflow
 
