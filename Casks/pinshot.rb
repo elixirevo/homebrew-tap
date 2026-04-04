@@ -1,6 +1,6 @@
 cask "pinshot" do
-  version "1.0.1"
-  sha256 "bf0a00196f247a5024ee76b1b299052bc99b5922a727ce8251470ca1dbd065cc"
+  version "1.1.0"
+  sha256 "9aebe77a23c13174f221e67d5f1b05cc953d768054de8c9eed7c4bbac7b48564"
 
   url "https://github.com/elixirevo/pinshot/releases/download/v#{version}/PinShot-#{version}-universal.dmg"
   name "PinShot"
