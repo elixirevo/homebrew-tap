@@ -1,10 +1,10 @@
 cask "pinshot" do
-  version "1.1.1"
-  sha256 "21763c1c79b6311e30a2e38c669f57408c53fa9d1ae2c49a66fbd87233aa205e"
+  version "1.1.2"
+  sha256 "e1e1eb47cbd155ed2842a5a446189b645d0d0953cf4d6f84633cf16211d82838"
 
   url "https://github.com/elixirevo/pinshot/releases/download/v#{version}/PinShot-#{version}-universal.dmg"
   name "PinShot"
-  desc "Capture and pin screenshots as always-on-top windows on macOS"
+  desc "Capture and pin screenshots as always-on-top windows"
   homepage "https://github.com/elixirevo/pinshot"
 
   app "PinShot.app"
