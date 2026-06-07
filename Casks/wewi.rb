@@ -10,7 +10,7 @@ cask "wewi" do
   desc "Pin live web pages to your desktop as widgets"
   homepage "https://github.com/elixirevo/wewi"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "wewi.app"
 
