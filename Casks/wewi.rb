@@ -1,9 +1,9 @@
 cask "wewi" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.1.1"
-  sha256 arm:   "ab59ac08d7d4b0eceb17c44d5902bba0640771ef8048158479802baaff60e7ef",
-         intel: "9e4082a4ec208af2cdce44bf3aadfa125562b5988f2fc0d8404b43621010060e"
+  version "1.1.2"
+  sha256 arm:   "06fd99643b212af5da5486d00253a8c7dd4b2916e8f230a85d3178f03d285c1e",
+         intel: "88ef707a03c78ea231376c4aabbf9fd5a3130b15f4ad2dee4ed02e573722eca2"
 
   url "https://github.com/elixirevo/wewi/releases/download/v#{version}/wewi-#{version}-#{arch}.dmg"
   name "wewi"
