@@ -1,11 +1,11 @@
 cask "wewi" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.1.2"
-  sha256 arm:   "06fd99643b212af5da5486d00253a8c7dd4b2916e8f230a85d3178f03d285c1e",
-         intel: "88ef707a03c78ea231376c4aabbf9fd5a3130b15f4ad2dee4ed02e573722eca2"
+  version "1.2.0"
+  sha256 arm:   "bb126269239400160101bdf2f9637a2722076e7e3ee11c92d464a15a5e3c703a",
+         intel: "0cd9ec40b1fec704f377ebd551e51fd9539115e5d6d8a7087d0594221dd52923"
 
-  url "https://github.com/elixirevo/wewi/releases/download/v#{version}/wewi-#{version}-#{arch}.dmg"
+  url "https://github.com/elixirevo/wewi/releases/download/v1.2.0/wewi-#{version}-#{arch}.dmg"
   name "wewi"
   desc "Pin live web pages to your desktop as widgets"
   homepage "https://github.com/elixirevo/wewi"
@@ -13,12 +13,4 @@ cask "wewi" do
   depends_on macos: :ventura
 
   app "wewi.app"
-
-  caveats <<~EOS
-    This app is currently distributed with ad-hoc signing.
-    On another Mac, if Gatekeeper blocks launch, run:
-
-      xattr -dr com.apple.quarantine /Applications/wewi.app
-      open /Applications/wewi.app
-  EOS
 end
