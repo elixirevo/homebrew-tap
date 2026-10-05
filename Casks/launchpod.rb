@@ -1,8 +1,8 @@
 cask "launchpod" do
-  version "1.3.0"
-  sha256 "f135dbf204c2021ca07bd5172da4826d78f47da678071c1cfbf90b624d5c4e17"
+  version "1.3.1"
+  sha256 "ddfd6409a6e7abee14f73ece0819028ca0c1d54b08ca33bc0267031f12bd697f"
 
-  url "https://github.com/elixirevo/launchpod/releases/download/v1.3.0/Launchpod-#{version}-arm64.dmg"
+  url "https://github.com/elixirevo/launchpod/releases/download/v1.3.1/Launchpod-#{version}-arm64.dmg"
   name "Launchpod"
   desc "Application launcher with a familiar grid, search, pages, and folders"
   homepage "https://github.com/elixirevo/launchpod"
