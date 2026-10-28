@@ -1,11 +1,11 @@
 cask "menubox" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.5.7"
-  sha256 arm:   "a0ba75da11755c573b05259236c2ec5a08e77710893da1505f579279e9f3c099",
-         intel: "fe6c5a7fd4611333967f8854d96b33c36ab14a961e7548ae3ffa32b77c4ed959"
+  version "1.5.8"
+  sha256 arm:   "0693cadbc5438ae6c963af97abbe8cde50a5f189890565b2252b9006204d9cb0",
+         intel: "7d51350fadbf863bd60544a45e458db6a65f75d0c0d920a45e1175557aef8513"
 
-  url "https://github.com/elixirevo/menubox/releases/download/v1.5.7/MenuBox-#{version}-#{arch}.dmg"
+  url "https://github.com/elixirevo/menubox/releases/download/v1.5.8/MenuBox-#{version}-#{arch}.dmg"
   name "MenuBox"
   desc "Menu bar utility for hiding and opening status bar apps"
   homepage "https://github.com/elixirevo/menubox"
